@@ -1,10 +1,9 @@
 from distutils.core import setup
-from xrd import __version__
 
 long_description = open('README.rst').read()
 
 setup(name="python-xrd",
-    version=__version__,
+    version="0.1",
     py_modules=["xrd"],
     description="Package for serializing and deserializing of XRD documents",
     author="Jeremy Carbaugh",
