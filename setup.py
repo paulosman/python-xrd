@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 long_description = open('README.rst').read()
 
@@ -12,6 +12,7 @@ setup(name="python-xrd",
     url="http://github.com/jcarbaugh/python-xrd/",
     long_description=long_description,
     platforms=["any"],
+    install_requires=["iso8601"],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
